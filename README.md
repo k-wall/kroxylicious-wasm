@@ -1,6 +1,10 @@
 # Kroxylicious WASM Filter Sample
 
-This sample filter project provides examples to help you learn how [custom filters](https://kroxylicious.io/kroxylicious/#_custom_filters) work in Kroxylicious. To learn more about Kroxylicious, visit the [docs](https://kroxylicious.io/kroxylicious). 
+This sample filter project provides an example usage of [custom filters](https://kroxylicious.io/kroxylicious/#_custom_filters) in Kroxylicious.
+Here we leverage a pure Java Wasm interpreter called [Chicory](https://github.com/dylibso/chicory) to build a filter that can be dynamically reconfigured with arbitrary "compiled to Wasm" programs.
+
+To learn more about Kroxylicious, visit the [docs](https://kroxylicious.io/kroxylicious).
+To learn more about Chicory, visit the [docs](https://github.com/dylibso/chicory?tab=readme-ov-file#chicory-runtime).
 
 ## Getting started
 
